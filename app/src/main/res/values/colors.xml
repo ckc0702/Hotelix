@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--default color-->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +8,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  color set  -->
+    <color name="bgColor">#2B3031</color>
+    <color name="yellow_underline">#F9C91E</color>
+    <color name="hyperlink_blue">#6EFCFC</color>
+    <color name="id_tag">#7CDB6D</color>
+    <!--  btn color choice  -->
+    <color name="btnColorBlack">#000000</color> <!--  black  -->
 </resources>
