@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/logInFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.hotelix_application.LogInFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_log_in">
+    </fragment>
+
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.example.hotelix_application.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" />
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/addReservationFragment"-->
+    <!--        android:name="com.example.hotelix_application.AddReservationFragment"-->
+    <!--        android:label="fragment_add_reservation"-->
+    <!--        tools:layout="@layout/fragment_add_reservation" />-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/editReservationFragment"-->
+    <!--        android:name="com.example.hotelix_application.EditReservationFragment"-->
+    <!--        android:label="fragment_edit_reservation"-->
+    <!--        tools:layout="@layout/fragment_edit_reservation" />-->
+
+</navigation>
