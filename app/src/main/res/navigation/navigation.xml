@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
     app:startDestination="@id/logInFragment">
 
     <fragment
@@ -10,6 +10,12 @@
         android:name="com.example.hotelix_application.LogInFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_log_in">
+        <action
+            android:id="@+id/action_logInFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_dashBoardFragment"
+            app:destination="@id/dashBoardFragment" />
     </fragment>
 
     <fragment
@@ -18,16 +24,30 @@
         android:label="fragment_forget_password"
         tools:layout="@layout/fragment_forget_password" />
 
-    <!--    <fragment-->
-    <!--        android:id="@+id/addReservationFragment"-->
-    <!--        android:name="com.example.hotelix_application.AddReservationFragment"-->
-    <!--        android:label="fragment_add_reservation"-->
-    <!--        tools:layout="@layout/fragment_add_reservation" />-->
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.example.hotelix_application.DashBoardFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" >
+        <action
+            android:id="@+id/action_dashBoardFragment_to_addReservationFragment"
+            app:destination="@id/addReservationFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_editReservationFragment"
+            app:destination="@id/editReservationFragment" />
+    </fragment>
 
-    <!--    <fragment-->
-    <!--        android:id="@+id/editReservationFragment"-->
-    <!--        android:name="com.example.hotelix_application.EditReservationFragment"-->
-    <!--        android:label="fragment_edit_reservation"-->
-    <!--        tools:layout="@layout/fragment_edit_reservation" />-->
+    <fragment
+        android:id="@+id/addReservationFragment"
+        android:name="com.example.hotelix_application.AddReservationFragment"
+        android:label="fragment_add_reservation"
+        tools:layout="@layout/fragment_add_reservation" />
+
+    <fragment
+        android:id="@+id/editReservationFragment"
+        android:name="com.example.hotelix_application.EditReservationFragment"
+        android:label="fragment_edit_reservation"
+        tools:layout="@layout/fragment_edit_reservation" />
+
 
 </navigation>

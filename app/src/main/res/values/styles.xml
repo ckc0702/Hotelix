@@ -8,6 +8,7 @@
     <!--  regular btn  -->
     <dimen name="regular_btn_width">146dp</dimen>
     <dimen name="regular_btn_height">48dp</dimen>
+    <!--  dashboard btn  -->
     <!--  large text box  -->
     <dimen name="large_box_width">303dp</dimen>
     <dimen name="large_box_height">62dp</dimen>
@@ -16,6 +17,7 @@
     <dimen name="regular_box_height">38dp</dimen>
     <!--  text style and size  -->
     <dimen name="font_size">18sp</dimen>
+    <dimen name="font_size_small">11sp</dimen>
     <!--  title constraint spacing with parent top  -->
     <dimen name="title_spacing_top">80dp</dimen>
 </resources>

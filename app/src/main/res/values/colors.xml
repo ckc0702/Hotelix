@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!--default color-->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -16,4 +17,29 @@
     <color name="id_tag">#7CDB6D</color>
     <!--  btn color choice  -->
     <color name="btnColorBlack">#000000</color> <!--  black  -->
+    <color name="btnColorRed">#FB6B6B</color>  <!--  red  -->
+    <color name="btnColorLightBlue">#665FF4F4</color> <!--  light blue   -->
+
+    <!-- transparency
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00  -->
 </resources>

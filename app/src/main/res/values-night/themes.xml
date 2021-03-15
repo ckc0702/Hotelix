@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="application_theme"> <!--  use this  for bg -->
+        <item name="android:background">@color/bgColor</item>
+    </style>
+
 </resources>

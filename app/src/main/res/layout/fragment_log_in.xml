@@ -10,14 +10,13 @@
         android:layout_height="match_parent"
         android:theme="@style/application_theme">
 
-
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/loginIcon"
             android:layout_width="61dp"
             android:layout_height="72dp"
             android:layout_marginTop="96dp"
             android:layout_marginBottom="563dp"
-            android:contentDescription="@string/todo"
+            android:contentDescription="@string/log_in"
             android:src="@drawable/ic_login"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="184dp"
@@ -40,13 +39,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <!--   backgroundTint only compatible to API above 21     -->
-
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/username"
             android:layout_width="274dp"
             android:layout_height="52dp"
             android:layout_marginTop="268dp"
-            android:autofillHints=""
             android:backgroundTint="@color/yellow_underline"
             android:drawableStart="@drawable/ic_username"
             android:ems="10"
@@ -63,11 +60,10 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/password"
             android:layout_width="274dp"
             android:layout_height="52dp"
             android:layout_marginTop="32dp"
-            android:autofillHints=""
             android:backgroundTint="@color/yellow_underline"
             android:drawableStart="@drawable/ic_password"
             android:ems="10"
@@ -78,10 +74,10 @@
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/username" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button1"
+            android:id="@+id/login_btn"
             android:layout_width="@dimen/large_btn_width"
             android:layout_height="@dimen/large_btn_height"
             android:layout_marginTop="32dp"
@@ -90,10 +86,10 @@
             app:cornerRadius="@dimen/btn_radius_1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+            app:layout_constraintTop_toBottomOf="@+id/password" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/forget_pass_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="110dp"
