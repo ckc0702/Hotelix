@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hotelix_Application</string>
+    <string name="app_name">Hotelix Application</string>
     <string name="log_in">Log In</string>
     <string name="username"><i>Username</i></string>
     <string name="password"><i>Password</i></string>
